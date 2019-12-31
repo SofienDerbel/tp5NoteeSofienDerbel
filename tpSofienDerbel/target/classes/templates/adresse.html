@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns :th="http://www.thymeleaf.org">
+<head>
+<title>Adresse</title>
+<meta http-equiv ="Content-Type" content ="text/html; charset=UTF-8" />
+<div th:insert="~{fragment :: my-fragment1}"></div>
+</head>
+<body>
+<form method="post" action="/meteo">
+<label for="adresse">Entrez votre adresse : </label>
+<input type="text" name="adresse" id="adresse" required>
+<input type="submit" value="Valider">
+</form>
+</body>
+</html>
